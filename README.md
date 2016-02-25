@@ -1,17 +1,31 @@
-# Roundware Digita11y
+# Digita11y iOS
 
-Native iOS client for Roundware
+Native iOS client for Roundware built for PEM, Smithsonian, and BMA.
 
-## How To Build
+## Build
 
-Make sure you have Cocoapods installed.
+Install [Cocoapods](http://cocoapods.org).
 
 ``` shell
-$ [sudo] gem install cocoapods
+$ gem install cocoapods
 ```
 
-And then install the podfiles before open the workspace file
+Install the podfiles.
+
 ``` shell
 $ pod install
 $ open Digita11y.xcworkspace 
 ```
+
+## Deploy
+
+We are using [Crashlytics](https://fabric.io) and [Fastlane](https://github.com/fastlane/fastlane) for workflow.
+
+
+##License
+
+TBD
+
+##Authors
+
+Christopher Reed, [@seereadnow](http://twitter.com/seereadnow)

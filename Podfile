@@ -1,18 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
+use_frameworks!
 
-inhibit_all_warnings!
-
-target 'Digita11y' do
-  pod 'CrashlyticsFramework', '~> 2.2'
-  pod 'SZTextView',           '~> 1.1'
-  pod 'SVProgressHUD',        '~> 1.1'
-  pod 'SDWebImage',           '~> 3.7'
-end
-
-target 'Digita11yTests' do
-  pod 'CrashlyticsFramework', '~> 2.2'
-  pod 'SZTextView',           '~> 1.1'
-  pod 'SVProgressHUD',        '~> 1.1'
-  pod 'SDWebImage',           '~> 3.7'
+target 'Digita11y', :exclusive => true do
+  pod 'RWFramework', :path => '../RWFramework'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end
