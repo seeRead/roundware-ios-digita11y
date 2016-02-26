@@ -1,0 +1,3 @@
+Device ID	Device Name
+97ece92779ea15c15aaabccc2a2c5c11d3cfe8b4	Sina's IPhone 6 Plus
+e0c6344f2a9989821313304d9b35796c781cbc7d	Christopher Reed’s iPhone

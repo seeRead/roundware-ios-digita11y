@@ -6,11 +6,23 @@ sudo gem install fastlane
 ```
 # Available Actions
 ## iOS
+### ios devices
+```
+fastlane ios devices
+```
+Register any new devices
 ### ios test
 ```
 fastlane ios test
 ```
 Runs all the tests
+### ios crashlytics
+```
+fastlane ios crashlytics
+```
+Submit a new build to Crashlytics
+
+This will also make sure the profile is up to date
 ### ios beta
 ```
 fastlane ios beta
