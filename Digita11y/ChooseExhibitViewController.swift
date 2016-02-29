@@ -1,20 +1,17 @@
 //
-//  ViewController.swift
+//  ChooseExhibitViewController.swift
 //  Digita11y
 //
-//  Created by Christopher Reed on 2/23/16.
+//  Created by Christopher Reed on 2/29/16.
 //  Copyright © 2016 Roundware. All rights reserved.
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+class ChooseExhibitController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-
-//        var institutions = ["Peabody Essex Museum", "Baltimore Museum of Art", "Smithsonian Museum"]
+        //        var institutions = ["Peabody Essex Museum", "Baltimore Museum of Art", "Smithsonian Museum"]
         super.view.addBackground("bg-blue.png")
         
     }
@@ -23,7 +20,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

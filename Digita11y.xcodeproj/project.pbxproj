@@ -8,8 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8A0C48011C7E85E100B11A25 /* UIButton+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */; };
+		8AA4911E1C84C2C000422274 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4911D1C84C2C000422274 /* WelcomeViewController.swift */; };
+		8AA491201C84C32700422274 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4911F1C84C32600422274 /* LocationViewController.swift */; };
+		8AA491221C84C33D00422274 /* ChooseExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491211C84C33D00422274 /* ChooseExhibitViewController.swift */; };
+		8AA491261C84C39900422274 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491251C84C39900422274 /* TagsViewController.swift */; };
+		8AA491281C84C3A300422274 /* ContributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491271C84C3A300422274 /* ContributeViewController.swift */; };
+		8AA4912A1C84C3BE00422274 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491291C84C3BE00422274 /* ThanksViewController.swift */; };
+		8AA4912C1C84C66E00422274 /* UILabel+Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4912B1C84C66E00422274 /* UILabel+Headline.swift */; };
+		8AA4912E1C84C68600422274 /* UILabel+Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4912D1C84C68600422274 /* UILabel+Body.swift */; };
+		8AA491321C84C94800422274 /* UIColor+Digita11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491311C84C94800422274 /* UIColor+Digita11y.swift */; };
+		8AA491341C84D25800422274 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491331C84D25800422274 /* ProjectModel.swift */; };
+		8AA491361C84D26700422274 /* ExhibitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491351C84D26700422274 /* ExhibitModel.swift */; };
 		8AA85E661C7CF12D0086AA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA85E651C7CF12D0086AA6B /* AppDelegate.swift */; };
-		8AA85E681C7CF12D0086AA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA85E671C7CF12D0086AA6B /* ViewController.swift */; };
+		8AA85E681C7CF12D0086AA6B /* ChooseProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA85E671C7CF12D0086AA6B /* ChooseProjectViewController.swift */; };
 		8AA85E6B1C7CF12D0086AA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA85E691C7CF12D0086AA6B /* Main.storyboard */; };
 		8AA85E701C7CF12D0086AA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA85E6E1C7CF12D0086AA6B /* LaunchScreen.storyboard */; };
 		8ADED7B51C7F773400BBB65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADED7B41C7F773400BBB65C /* Assets.xcassets */; };
@@ -22,9 +33,20 @@
 		3705801AFC5389EC249AD8F7 /* Pods-Digita11y.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digita11y.release.xcconfig"; path = "Pods/Target Support Files/Pods-Digita11y/Pods-Digita11y.release.xcconfig"; sourceTree = "<group>"; };
 		622AAACFCD81D342B9F20D78 /* Pods_Digita11y.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digita11y.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Border.swift"; sourceTree = "<group>"; };
+		8AA4911D1C84C2C000422274 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8AA4911F1C84C32600422274 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		8AA491211C84C33D00422274 /* ChooseExhibitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseExhibitViewController.swift; sourceTree = "<group>"; };
+		8AA491251C84C39900422274 /* TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		8AA491271C84C3A300422274 /* ContributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributeViewController.swift; sourceTree = "<group>"; };
+		8AA491291C84C3BE00422274 /* ThanksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		8AA4912B1C84C66E00422274 /* UILabel+Headline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Headline.swift"; sourceTree = "<group>"; };
+		8AA4912D1C84C68600422274 /* UILabel+Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Body.swift"; sourceTree = "<group>"; };
+		8AA491311C84C94800422274 /* UIColor+Digita11y.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Digita11y.swift"; sourceTree = "<group>"; };
+		8AA491331C84D25800422274 /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		8AA491351C84D26700422274 /* ExhibitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitModel.swift; sourceTree = "<group>"; };
 		8AA85E621C7CF12D0086AA6B /* Digita11y.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digita11y.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA85E651C7CF12D0086AA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AA85E671C7CF12D0086AA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AA85E671C7CF12D0086AA6B /* ChooseProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProjectViewController.swift; sourceTree = "<group>"; };
 		8AA85E6A1C7CF12D0086AA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA85E6F1C7CF12D0086AA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AA85E711C7CF12D0086AA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +66,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AA491231C84C36900422274 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AA85E671C7CF12D0086AA6B /* ChooseProjectViewController.swift */,
+				8AA4911D1C84C2C000422274 /* WelcomeViewController.swift */,
+				8AA4911F1C84C32600422274 /* LocationViewController.swift */,
+				8AA491211C84C33D00422274 /* ChooseExhibitViewController.swift */,
+				8AA491251C84C39900422274 /* TagsViewController.swift */,
+				8AA491271C84C3A300422274 /* ContributeViewController.swift */,
+				8AA491291C84C3BE00422274 /* ThanksViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8AA491241C84C37700422274 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */,
+				8AA4912B1C84C66E00422274 /* UILabel+Headline.swift */,
+				8AA4912D1C84C68600422274 /* UILabel+Body.swift */,
+				8AA491311C84C94800422274 /* UIColor+Digita11y.swift */,
+				8ADED7B61C7F7F5200BBB65C /* UIViewAddBackground.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8AA491371C84D26C00422274 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8AA491331C84D25800422274 /* ProjectModel.swift */,
+				8AA491351C84D26700422274 /* ExhibitModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8AA85E591C7CF12D0086AA6B = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				8AA85E651C7CF12D0086AA6B /* AppDelegate.swift */,
-				8AA85E671C7CF12D0086AA6B /* ViewController.swift */,
-				8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */,
+				8AA491371C84D26C00422274 /* Models */,
+				8AA491231C84C36900422274 /* Controllers */,
+				8AA491241C84C37700422274 /* Categories */,
 				8AA85E691C7CF12D0086AA6B /* Main.storyboard */,
-				8ADED7B61C7F7F5200BBB65C /* UIViewAddBackground.swift */,
 				8AA85E6E1C7CF12D0086AA6B /* LaunchScreen.storyboard */,
 				8ADED7B41C7F773400BBB65C /* Assets.xcassets */,
 				8AA85E711C7CF12D0086AA6B /* Info.plist */,
@@ -230,8 +287,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA85E681C7CF12D0086AA6B /* ViewController.swift in Sources */,
+				8AA85E681C7CF12D0086AA6B /* ChooseProjectViewController.swift in Sources */,
+				8AA491321C84C94800422274 /* UIColor+Digita11y.swift in Sources */,
+				8AA491281C84C3A300422274 /* ContributeViewController.swift in Sources */,
+				8AA491261C84C39900422274 /* TagsViewController.swift in Sources */,
+				8AA4912C1C84C66E00422274 /* UILabel+Headline.swift in Sources */,
+				8AA4912E1C84C68600422274 /* UILabel+Body.swift in Sources */,
+				8AA491221C84C33D00422274 /* ChooseExhibitViewController.swift in Sources */,
+				8AA4911E1C84C2C000422274 /* WelcomeViewController.swift in Sources */,
+				8AA4912A1C84C3BE00422274 /* ThanksViewController.swift in Sources */,
+				8AA491361C84D26700422274 /* ExhibitModel.swift in Sources */,
+				8AA491341C84D25800422274 /* ProjectModel.swift in Sources */,
 				8A0C48011C7E85E100B11A25 /* UIButton+Border.swift in Sources */,
+				8AA491201C84C32700422274 /* LocationViewController.swift in Sources */,
 				8ADED7B71C7F7F5200BBB65C /* UIViewAddBackground.swift in Sources */,
 				8AA85E661C7CF12D0086AA6B /* AppDelegate.swift in Sources */,
 			);

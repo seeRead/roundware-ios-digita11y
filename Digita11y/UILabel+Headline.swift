@@ -1,16 +1,15 @@
 //
-//  UIButton+Border.swift
+//  UILabel+Headline.swift
 //  Digita11y
 //
-//  Created by Christopher Reed on 2/24/16.
+//  Created by Christopher Reed on 2/29/16.
 //  Copyright © 2016 Roundware. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-@IBDesignable class UIButtonBorder: UIButton {
-    
+class UILabelHeadline: UILabel {
     //this init fires usually called, when storyboards UI objects created:
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -24,11 +23,10 @@ import UIKit
     }
     
     func setupViews() {
-        self.titleLabel!.font = UIFont(name: "AvenirNext-Medium", size: 24.0)
-        self.layer.borderColor = UIColor.whiteColor().CGColor
-        self.layer.borderWidth = 1.0
-        self.layer.cornerRadius = 0
-        self.layer.masksToBounds = false
+        self.font = UIFont(name: "AvenirNext-Medium", size: 34.0)
+        self.numberOfLines = 0
+        self.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        self.textColor = UIColor.whiteColor()
     }
     
     //required method to present changes in IB
