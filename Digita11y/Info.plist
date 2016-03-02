@@ -50,6 +50,27 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>Projects</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Smithsonian Museum</string>
+			<key>id</key>
+			<string>asdfasdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Peabody Essex Museum</string>
+			<key>id</key>
+			<string>asdfasdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Baltimore Museum of Art</string>
+			<key>id</key>
+			<string>asdfasdf</string>
+		</dict>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

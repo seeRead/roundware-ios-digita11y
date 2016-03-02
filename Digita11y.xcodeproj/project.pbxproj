@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A0C48011C7E85E100B11A25 /* UIButton+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */; };
+		8A6598971C877399009A29C8 /* Digita11yTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6598961C877399009A29C8 /* Digita11yTests.swift */; };
 		8AA4911E1C84C2C000422274 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4911D1C84C2C000422274 /* WelcomeViewController.swift */; };
 		8AA491201C84C32700422274 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4911F1C84C32600422274 /* LocationViewController.swift */; };
 		8AA491221C84C33D00422274 /* ChooseExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA491211C84C33D00422274 /* ChooseExhibitViewController.swift */; };
@@ -28,11 +29,24 @@
 		BE82BC92E80BBB4CA0B8A713 /* Pods_Digita11y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AAACFCD81D342B9F20D78 /* Pods_Digita11y.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8A6598991C877399009A29C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA85E5A1C7CF12D0086AA6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA85E611C7CF12D0086AA6B;
+			remoteInfo = Digita11y;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D332F49278593270CAB8C72 /* Pods-Digita11y.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digita11y.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Digita11y/Pods-Digita11y.debug.xcconfig"; sourceTree = "<group>"; };
 		3705801AFC5389EC249AD8F7 /* Pods-Digita11y.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digita11y.release.xcconfig"; path = "Pods/Target Support Files/Pods-Digita11y/Pods-Digita11y.release.xcconfig"; sourceTree = "<group>"; };
 		622AAACFCD81D342B9F20D78 /* Pods_Digita11y.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digita11y.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0C48001C7E85E100B11A25 /* UIButton+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Border.swift"; sourceTree = "<group>"; };
+		8A6598941C877398009A29C8 /* Digita11yTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digita11yTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6598961C877399009A29C8 /* Digita11yTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digita11yTests.swift; sourceTree = "<group>"; };
+		8A6598981C877399009A29C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA4911D1C84C2C000422274 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		8AA4911F1C84C32600422274 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		8AA491211C84C33D00422274 /* ChooseExhibitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseExhibitViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +69,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A6598911C877398009A29C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AA85E5F1C7CF12D0086AA6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A6598951C877399009A29C8 /* Digita11yTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6598961C877399009A29C8 /* Digita11yTests.swift */,
+				8A6598981C877399009A29C8 /* Info.plist */,
+			);
+			path = Digita11yTests;
+			sourceTree = "<group>";
+		};
 		8AA491231C84C36900422274 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				8AA85E641C7CF12D0086AA6B /* Digita11y */,
+				8A6598951C877399009A29C8 /* Digita11yTests */,
 				8AA85E631C7CF12D0086AA6B /* Products */,
 				C8C4A559F9278AAC4FDB8C39 /* Pods */,
 				D9348D313BC9C2576BAD64D6 /* Frameworks */,
@@ -115,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				8AA85E621C7CF12D0086AA6B /* Digita11y.app */,
+				8A6598941C877398009A29C8 /* Digita11yTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +186,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A6598931C877398009A29C8 /* Digita11yTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A65989B1C877399009A29C8 /* Build configuration list for PBXNativeTarget "Digita11yTests" */;
+			buildPhases = (
+				8A6598901C877398009A29C8 /* Sources */,
+				8A6598911C877398009A29C8 /* Frameworks */,
+				8A6598921C877398009A29C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A65989A1C877399009A29C8 /* PBXTargetDependency */,
+			);
+			name = Digita11yTests;
+			productName = Digita11yTests;
+			productReference = 8A6598941C877398009A29C8 /* Digita11yTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8AA85E611C7CF12D0086AA6B /* Digita11y */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA85E741C7CF12D0086AA6B /* Build configuration list for PBXNativeTarget "Digita11y" */;
@@ -185,6 +235,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Roundware;
 				TargetAttributes = {
+					8A6598931C877398009A29C8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8AA85E611C7CF12D0086AA6B;
+					};
 					8AA85E611C7CF12D0086AA6B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -204,11 +258,19 @@
 			projectRoot = "";
 			targets = (
 				8AA85E611C7CF12D0086AA6B /* Digita11y */,
+				8A6598931C877398009A29C8 /* Digita11yTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A6598921C877398009A29C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AA85E601C7CF12D0086AA6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +345,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A6598901C877398009A29C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6598971C877399009A29C8 /* Digita11yTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AA85E5E1C7CF12D0086AA6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +377,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8A65989A1C877399009A29C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA85E611C7CF12D0086AA6B /* Digita11y */;
+			targetProxy = 8A6598991C877399009A29C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		8AA85E691C7CF12D0086AA6B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -327,6 +405,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A65989C1C877399009A29C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Digita11yTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.roundware.Digita11yTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digita11y.app/Digita11y";
+			};
+			name = Debug;
+		};
+		8A65989D1C877399009A29C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Digita11yTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.roundware.Digita11yTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digita11y.app/Digita11y";
+			};
+			name = Release;
+		};
 		8AA85E721C7CF12D0086AA6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,6 +450,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -393,6 +497,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -443,6 +548,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A65989B1C877399009A29C8 /* Build configuration list for PBXNativeTarget "Digita11yTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A65989C1C877399009A29C8 /* Debug */,
+				8A65989D1C877399009A29C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8AA85E5D1C7CF12D0086AA6B /* Build configuration list for PBXProject "Digita11y" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
