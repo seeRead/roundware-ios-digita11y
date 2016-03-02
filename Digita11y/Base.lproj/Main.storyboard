@@ -40,7 +40,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="ProjectsStack" axis="vertical" distribution="equalSpacing" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="xak-eY-JLC">
                                 <rect key="frame" x="28" y="100" width="266" height="165"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9f-Uk-hNY" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9f-Uk-hNY" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="266" height="33"/>
                                         <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -61,7 +61,7 @@
                                             </mask>
                                         </variation>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-Qp-SOG" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-Qp-SOG" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="54" width="266" height="45"/>
                                         <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -82,7 +82,7 @@
                                             </mask>
                                         </variation>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4W-8D-JVK" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4W-8D-JVK" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="120" width="266" height="45"/>
                                         <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -178,7 +178,7 @@
                                     <constraint firstAttribute="width" constant="375" id="vil-Cu-64K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -199,7 +199,7 @@
                                     <constraint firstAttribute="width" constant="375" id="jTh-A5-zoj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -256,12 +256,12 @@
                             <mask key="constraints">
                                 <exclude reference="6kP-6B-S5H"/>
                                 <exclude reference="RjS-nR-lHn"/>
+                                <exclude reference="jSU-du-dhG"/>
+                                <exclude reference="xWp-9m-Gb0"/>
                                 <exclude reference="7Wg-P9-7wI"/>
                                 <exclude reference="phb-Cz-pKV"/>
                                 <exclude reference="Mwe-wk-prf"/>
                                 <exclude reference="eri-CJ-vbD"/>
-                                <exclude reference="jSU-du-dhG"/>
-                                <exclude reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -274,12 +274,12 @@
                             <mask key="constraints">
                                 <include reference="6kP-6B-S5H"/>
                                 <include reference="RjS-nR-lHn"/>
+                                <include reference="jSU-du-dhG"/>
+                                <include reference="xWp-9m-Gb0"/>
                                 <include reference="7Wg-P9-7wI"/>
                                 <include reference="phb-Cz-pKV"/>
                                 <include reference="Mwe-wk-prf"/>
                                 <include reference="eri-CJ-vbD"/>
-                                <include reference="jSU-du-dhG"/>
-                                <include reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                     </view>

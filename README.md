@@ -10,7 +10,7 @@ Install [Cocoapods](http://cocoapods.org).
 $ gem install cocoapods
 ```
 
-Install the podfiles.
+Install the podfiles and then open the workspace.
 
 ``` shell
 $ pod install
