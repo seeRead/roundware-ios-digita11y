@@ -8,6 +8,7 @@
 
 import UIKit
 import Fabric
+import RWFramework
 import Crashlytics
 
 @UIApplicationMain
@@ -19,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Fabric.with([Crashlytics.self])
         
-        //populate Projects
-
+        let rwf = RWFramework.sharedInstance
+        rwf.addDelegate(self)
         
         return true
     }

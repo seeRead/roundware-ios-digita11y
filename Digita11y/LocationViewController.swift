@@ -12,6 +12,9 @@ class LocationViewController: UIViewController {
         super.viewDidLoad()
         super.view.addBackground("bg-green.png")
         
+        //TODO begin RWF?
+        //let rwf = RWFramework.sharedInstance
+        //rwf.addDelegate(self)
     }
     
     override func didReceiveMemoryWarning() {

@@ -16,19 +16,39 @@ import UIKit
         super.init(coder: aDecoder)
         self.setupViews()
     }
-    
+
     //during developing IB fires this init to create object
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
     
-    func setupViews() {
+    override func intrinsicContentSize() -> CGSize {
+        return CGSizeMake(306, 54)
+    }
+    
+    override func setTitle(title: String?, forState state: UIControlState) {
+        super.setTitle(title, forState: state)
+        self.setType()
+    }
+
+    override class func requiresConstraintBasedLayout() -> Bool {
+        return true
+    }
+    
+    func setType(){
         self.titleLabel!.font = UIFont(name: "AvenirNext-Medium", size: 24.0)
+        self.titleLabel!.textAlignment = .Center
+        self.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+    }
+    
+    func setupViews() {
         self.layer.borderColor = UIColor.whiteColor().CGColor
         self.layer.borderWidth = 1.0
         self.layer.cornerRadius = 0
         self.layer.masksToBounds = false
+        self.setType()
+        self.backgroundColor = UIColor.DarkSkyBlueColor()
     }
     
     //required method to present changes in IB

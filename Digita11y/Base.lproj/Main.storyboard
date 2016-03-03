@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -18,138 +19,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIP-QS-pKS" userLabel="Projects Scroll View">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="n0l-2m-YrS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="n0l-2m-YrS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="n0l-2m-YrS"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Choose an institution to explore" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pN-pA-vGX">
                                 <rect key="frame" x="257" y="28" width="323" height="93"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="334" id="rTU-xt-I0g"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="340" id="4aE-8e-Ve0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="rTU-xt-I0g"/>
+                                        <exclude reference="4aE-8e-Ve0"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
                                     <mask key="constraints">
-                                        <include reference="rTU-xt-I0g"/>
+                                        <include reference="4aE-8e-Ve0"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="ProjectsStack" axis="vertical" distribution="equalSpacing" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="xak-eY-JLC">
-                                <rect key="frame" x="28" y="100" width="266" height="165"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9f-Uk-hNY" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="266" height="33"/>
-                                        <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="Gic-rW-vfe"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Baltimore Museum of Art">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Gic-rW-vfe"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="Gic-rW-vfe"/>
-                                            </mask>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-Qp-SOG" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="54" width="266" height="45"/>
-                                        <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="Dw1-ix-53y"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
-                                        <state key="normal" title="Peabody Essex Museum">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Dw1-ix-53y"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="Dw1-ix-53y"/>
-                                            </mask>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4W-8D-JVK" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="120" width="266" height="45"/>
-                                        <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="qfg-qs-OVW"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
-                                        <state key="normal" title="Smithsonian Museum">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="qfg-qs-OVW"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="qfg-qs-OVW"/>
-                                            </mask>
-                                        </variation>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="NgB-J6-Qbq"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="NgB-J6-Qbq"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="NgB-J6-Qbq"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.29019609093666077" green="0.56470590829849243" blue="0.88627451658248901" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8pN-pA-vGX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="Kj6-HQ-Wa8"/>
-                            <constraint firstItem="xak-eY-JLC" firstAttribute="centerX" secondItem="8pN-pA-vGX" secondAttribute="centerX" id="R9p-Fe-NiA"/>
-                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="8pN-pA-vGX" secondAttribute="trailing" constant="8" id="TCS-lb-RAF"/>
-                            <constraint firstItem="8pN-pA-vGX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="bI6-r3-2IX"/>
-                            <constraint firstItem="xak-eY-JLC" firstAttribute="top" secondItem="8pN-pA-vGX" secondAttribute="bottom" priority="999" constant="143" id="cPM-NG-5ca"/>
-                            <constraint firstItem="8pN-pA-vGX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fVC-Qz-9cD"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="xak-eY-JLC" secondAttribute="bottom" constant="8" id="jij-l6-txI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nIP-QS-pKS" secondAttribute="trailing" id="8hF-SK-Y3v"/>
+                            <constraint firstItem="8pN-pA-vGX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="LrU-Oq-o0V"/>
+                            <constraint firstItem="nIP-QS-pKS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Mm4-iI-MEd"/>
+                            <constraint firstItem="nIP-QS-pKS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TKc-d5-nth"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nIP-QS-pKS" secondAttribute="bottom" constant="8" id="trf-Sg-oh2"/>
+                            <constraint firstItem="nIP-QS-pKS" firstAttribute="top" secondItem="8pN-pA-vGX" secondAttribute="bottom" constant="150" id="y1o-Yg-CkJ"/>
+                            <constraint firstItem="8pN-pA-vGX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zsa-Yk-ujF"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="nIP-QS-pKS"/>
+                            </mask>
                             <mask key="constraints">
-                                <exclude reference="R9p-Fe-NiA"/>
-                                <exclude reference="cPM-NG-5ca"/>
-                                <exclude reference="Kj6-HQ-Wa8"/>
-                                <exclude reference="TCS-lb-RAF"/>
-                                <exclude reference="fVC-Qz-9cD"/>
+                                <exclude reference="8hF-SK-Y3v"/>
+                                <exclude reference="Mm4-iI-MEd"/>
+                                <exclude reference="TKc-d5-nth"/>
+                                <exclude reference="y1o-Yg-CkJ"/>
+                                <exclude reference="LrU-Oq-o0V"/>
+                                <exclude reference="zsa-Yk-ujF"/>
+                                <exclude reference="trf-Sg-oh2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="nIP-QS-pKS"/>
+                            </mask>
                             <mask key="constraints">
-                                <include reference="R9p-Fe-NiA"/>
-                                <include reference="cPM-NG-5ca"/>
-                                <include reference="Kj6-HQ-Wa8"/>
-                                <include reference="TCS-lb-RAF"/>
-                                <include reference="fVC-Qz-9cD"/>
+                                <include reference="8hF-SK-Y3v"/>
+                                <include reference="Mm4-iI-MEd"/>
+                                <include reference="TKc-d5-nth"/>
+                                <include reference="y1o-Yg-CkJ"/>
+                                <include reference="LrU-Oq-o0V"/>
+                                <include reference="zsa-Yk-ujF"/>
+                                <include reference="trf-Sg-oh2"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <segue destination="rfJ-no-223" kind="show" identifier="ProjectSegue" id="Yya-Rt-CRF"/>
+                        <outlet property="ProjectsScrollView" destination="nIP-QS-pKS" id="EIZ-xh-hMF"/>
+                        <segue destination="rfJ-no-223" kind="showDetail" identifier="ProjectSegue" action="showViewController:sender:" id="Yya-Rt-CRF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -159,7 +106,7 @@
         <!--Welcome-->
         <scene sceneID="P6A-ep-RLC">
             <objects>
-                <viewController restorationIdentifier="Welcome" storyboardIdentifier="Welcome" title="Welcome" id="rfJ-no-223" customClass="Welcome" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Welcome" storyboardIdentifier="Welcome" title="Welcome" id="rfJ-no-223" customClass="WelcomeViewController" customModule="Digita11y" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lBC-AM-fzY"/>
                         <viewControllerLayoutGuide type="bottom" id="sOb-Or-rEQ"/>
@@ -170,11 +117,13 @@
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="castle" translatesAutoresizingMaskIntoConstraints="NO" id="8Gn-9F-5B8">
                                 <rect key="frame" x="0.0" y="-133" width="133" height="133"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="234" y="80" width="133" height="133"/>
+                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="WelcomeTitle" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JY-P8-634" customClass="UILabelHeadline" customModule="Digita11y" customModuleProvider="target">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="q5Y-vr-s3D"/>
                                     <constraint firstAttribute="width" constant="375" id="vil-Cu-64K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -182,31 +131,31 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="q5Y-vr-s3D"/>
                                         <exclude reference="vil-Cu-64K"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular">
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="113" y="256" width="375" height="90"/>
                                     <mask key="constraints">
-                                        <include reference="q5Y-vr-s3D"/>
                                         <include reference="vil-Cu-64K"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="WelcomeText" text="Keytar retro gentrify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssu-Sz-qmD" customClass="UILabelBody">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="WelcomeText" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssu-Sz-qmD" customClass="UILabelBody" customModule="Digita11y" customModuleProvider="target">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="jTh-A5-zoj"/>
                                 </constraints>
+                                <mutableString key="text">Keytar retro gentrify, leggings 90's chillwave Bushwick Tumblr synth selvage paleo narwhal Thundercats. Selfies craft beer raw denim organic Vice Portland keffiyeh McSweeney's, photo booth crucifix Pinterest irony 8-bit mixtape. Master cleanse twee plaid next level scenester McSweeney's pour-over, Godard Austin synth. Keffiyeh lomo dreamcatcher Blue Bottle, mustache tofu chia Tumblr four loko messenger bag typewriter sartorial master cleanse salvia paleo. Marfa fixie normcore selvage put a bird on it, VHS skateboard mustache Brooklyn heirloom retro cronut Intelligentsia. Fashion axe asymmetrical wolf, VHS cold-pressed American Apparel distillery roof party Thundercats McSweeney's banh mi Wes Anderson sustainable. Mumblecore taxidermy banh mi authentic retro Williamsburg.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="jTh-A5-zoj"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular">
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="113" y="386" width="375" height="324"/>
                                     <mask key="constraints">
                                         <include reference="jTh-A5-zoj"/>
                                     </mask>
@@ -215,8 +164,8 @@
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Next" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4z-dT-tJR" customClass="UIButtonBorder" customModule="Digita11y" customModuleProvider="target">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="1yE-Q1-8AV"/>
-                                    <constraint firstAttribute="width" constant="46" id="bGj-Sg-OoH"/>
+                                    <constraint firstAttribute="height" constant="54" id="1yE-Q1-8AV"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="bGj-Sg-OoH"/>
                                 </constraints>
                                 <state key="normal" title="Begin">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,8 +188,9 @@
                         <constraints>
                             <constraint firstItem="8Gn-9F-5B8" firstAttribute="centerX" secondItem="Omn-QH-0eM" secondAttribute="centerX" id="6kP-6B-S5H"/>
                             <constraint firstItem="1JY-P8-634" firstAttribute="top" secondItem="8Gn-9F-5B8" secondAttribute="bottom" constant="43" id="7Wg-P9-7wI"/>
+                            <constraint firstItem="q4z-dT-tJR" firstAttribute="top" secondItem="Ssu-Sz-qmD" secondAttribute="bottom" constant="16" id="ItH-I7-JbY"/>
                             <constraint firstItem="Ssu-Sz-qmD" firstAttribute="centerX" secondItem="Omn-QH-0eM" secondAttribute="centerX" id="Mwe-wk-prf"/>
-                            <constraint firstItem="8Gn-9F-5B8" firstAttribute="top" secondItem="lBC-AM-fzY" secondAttribute="bottom" constant="87" id="RjS-nR-lHn"/>
+                            <constraint firstItem="8Gn-9F-5B8" firstAttribute="top" secondItem="lBC-AM-fzY" secondAttribute="bottom" constant="60" id="RjS-nR-lHn"/>
                             <constraint firstItem="Ssu-Sz-qmD" firstAttribute="top" secondItem="1JY-P8-634" secondAttribute="bottom" constant="40" id="eri-CJ-vbD"/>
                             <constraint firstItem="q4z-dT-tJR" firstAttribute="centerX" secondItem="Ssu-Sz-qmD" secondAttribute="centerX" id="jSU-du-dhG"/>
                             <constraint firstItem="1JY-P8-634" firstAttribute="centerX" secondItem="Omn-QH-0eM" secondAttribute="centerX" id="phb-Cz-pKV"/>
@@ -256,12 +206,13 @@
                             <mask key="constraints">
                                 <exclude reference="6kP-6B-S5H"/>
                                 <exclude reference="RjS-nR-lHn"/>
-                                <exclude reference="jSU-du-dhG"/>
-                                <exclude reference="xWp-9m-Gb0"/>
                                 <exclude reference="7Wg-P9-7wI"/>
                                 <exclude reference="phb-Cz-pKV"/>
                                 <exclude reference="Mwe-wk-prf"/>
                                 <exclude reference="eri-CJ-vbD"/>
+                                <exclude reference="ItH-I7-JbY"/>
+                                <exclude reference="jSU-du-dhG"/>
+                                <exclude reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -274,22 +225,25 @@
                             <mask key="constraints">
                                 <include reference="6kP-6B-S5H"/>
                                 <include reference="RjS-nR-lHn"/>
-                                <include reference="jSU-du-dhG"/>
-                                <include reference="xWp-9m-Gb0"/>
                                 <include reference="7Wg-P9-7wI"/>
                                 <include reference="phb-Cz-pKV"/>
                                 <include reference="Mwe-wk-prf"/>
                                 <include reference="eri-CJ-vbD"/>
+                                <include reference="ItH-I7-JbY"/>
+                                <include reference="jSU-du-dhG"/>
+                                <include reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="WelcomeLabelBody" destination="Ssu-Sz-qmD" id="psy-Ib-Rdu"/>
+                        <outlet property="WelcomeLabelHeadline" destination="1JY-P8-634" id="tps-TP-bph"/>
                         <segue destination="NXU-ss-h4i" kind="show" id="3jC-OW-DCH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sHX-kg-Z9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2077" y="-427.5"/>
+            <point key="canvasLocation" x="-2049" y="-426"/>
         </scene>
         <!--Location-->
         <scene sceneID="17I-6f-FEs">

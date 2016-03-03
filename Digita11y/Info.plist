@@ -57,18 +57,24 @@
 			<string>Smithsonian Museum</string>
 			<key>id</key>
 			<string>asdfasdf</string>
+			<key>url</key>
+			<string>https://devapi.digita11y.org/</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Peabody Essex Museum</string>
 			<key>id</key>
 			<string>asdfasdf</string>
+			<key>url</key>
+			<string>https://devapi.digita11y.org/</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Baltimore Museum of Art</string>
 			<key>id</key>
 			<string>asdfasdf</string>
+			<key>url</key>
+			<string>https://devapi.digita11y.org/</string>
 		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>

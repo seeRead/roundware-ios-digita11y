@@ -28,7 +28,7 @@ extension UIColor {
         return UIColor(red: 43.0 / 255.0, green: 156.0 / 255.0, blue: 101.0 / 255.0, alpha: 0.35)
     }
     
-    class func Crimsonolor() -> UIColor {
+    class func CrimsonColor() -> UIColor {
         return UIColor(red: 228.0 / 255.0, green: 43.0 / 255.0, blue: 43.0 / 255.0, alpha: 1.0)
     }
 
