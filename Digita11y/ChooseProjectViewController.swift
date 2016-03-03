@@ -8,9 +8,9 @@
 
 import UIKit
 class ChooseProjectViewController: UIViewController, UIScrollViewDelegate {
-    let projects        = sharedProjects
 
     @IBOutlet weak var ProjectsScrollView: UIScrollView!
+    
     @IBAction func selectedThis(sender: UIButton) {
         let projectName = sender.titleLabel?.text
         let project = projects[projects.indexOf({$0.name == projectName})!]
@@ -19,20 +19,18 @@ class ChooseProjectViewController: UIViewController, UIScrollViewDelegate {
         self.performSegueWithIdentifier("ProjectSegue", sender: nil)
     }
 
+    let projects        = sharedProjects
+    let buttonHeight    = 54 //     button.intrinsicContentSize()
+    let buttonWidth     = 306 //     button.intrinsicContentSize()
+    let buttonMarginX   = 0
+    let buttonMarginY   = 21
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         super.view.addBackground("bg-blue.png")
         ProjectsScrollView.delegate = self
-    }
-    
-    override func viewDidLayoutSubviews(){
-        super.viewDidLayoutSubviews()
-
         // populate buttons
-        let buttonHeight    = 54 //     button.intrinsicContentSize()
-        let buttonWidth     = 306 //     button.intrinsicContentSize()
-        let buttonMarginX   = 0
-        let buttonMarginY   = 21
+
         for index in 0..<projects.count {
             let project = projects[index]
             let frame = CGRect(x: buttonMarginX, y: index * (buttonMarginY + buttonHeight), width: buttonWidth, height: buttonHeight )
@@ -40,10 +38,15 @@ class ChooseProjectViewController: UIViewController, UIScrollViewDelegate {
             
             button.frame = frame
             button.setTitle(project.name, forState: .Normal)
+            print(project.name)
             button.addTarget(self, action: "selectedThis:", forControlEvents: UIControlEvents.TouchUpInside)
             ProjectsScrollView.addSubview(button)
         }
-        
+    }
+    
+    override func viewDidLayoutSubviews(){
+        super.viewDidLayoutSubviews()
+
         // set scroll view
         ProjectsScrollView.contentSize.width = CGFloat((buttonWidth) + 2)
         ProjectsScrollView.contentSize.height = CGFloat((buttonHeight + buttonMarginY)*projects.count)
@@ -54,6 +57,16 @@ class ChooseProjectViewController: UIViewController, UIScrollViewDelegate {
         //print(ProjectsScrollView.contentSize.width)
         //print(ProjectsScrollView.bounds.size.width)
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController!.setNavigationBarHidden(true, animated: true)
+        super.viewWillAppear(animated);
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController!.setNavigationBarHidden(false, animated: true)
+        super.viewWillAppear(animated);
     }
     
     override func didReceiveMemoryWarning() {
