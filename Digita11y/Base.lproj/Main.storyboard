@@ -29,8 +29,7 @@
                                         <exclude reference="n0l-2m-YrS"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="323" width="560" height="469"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="n0l-2m-YrS"/>
                                     </mask>
@@ -49,8 +48,7 @@
                                         <exclude reference="4aE-8e-Ve0"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="131" y="80" width="339" height="93"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="4aE-8e-Ve0"/>
                                     </mask>
@@ -149,7 +147,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="jTh-A5-zoj"/>
                                 </constraints>
-                                <mutableString key="text">Keytar retro gentrify, leggings 90's chillwave Bushwick Tumblr synth selvage paleo narwhal Thundercats. Selfies craft beer raw denim organic Vice Portland keffiyeh McSweeney's, photo booth crucifix Pinterest irony 8-bit mixtape. Master cleanse twee plaid next level scenester McSweeney's pour-over, Godard Austin synth. Keffiyeh lomo dreamcatcher Blue Bottle, mustache tofu chia Tumblr four loko messenger bag typewriter sartorial master cleanse salvia paleo. Marfa fixie normcore selvage put a bird on it, VHS skateboard mustache Brooklyn heirloom retro cronut Intelligentsia. Fashion axe asymmetrical wolf, VHS cold-pressed American Apparel distillery roof party Thundercats McSweeney's banh mi Wes Anderson sustainable. Mumblecore taxidermy banh mi authentic retro Williamsburg.</mutableString>
+                                <string key="text">Keytar retro gentrify, leggings 90's chillwave Bushwick Tumblr synth selvage paleo narwhal Thundercats. Selfies craft beer raw denim organic Vice Portland keffiyeh McSweeney's, photo booth crucifix Pinterest irony 8-bit mixtape. Master cleanse twee plaid next level scenester McSweeney's pour-over, Godard Austin synth. Keffiyeh lomo dreamcatcher Blue Bottle, mustache tofu chia Tumblr four loko messenger bag typewriter sartorial master cleanse salvia paleo. Marfa fixie normcore selvage put a bird on it, VHS skateboard mustache Brooklyn heirloom retro cronut Intelligentsia. Fashion axe asymmetrical wolf, VHS cold-pressed American Apparel distillery roof party Thundercats McSweeney's banh mi Wes Anderson sustainable. Mumblecore taxidermy banh mi authentic retro Williamsburg.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -179,7 +177,8 @@
                                         <exclude reference="bGj-Sg-OoH"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular">
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="150" y="726" width="300" height="54"/>
                                     <mask key="constraints">
                                         <include reference="1yE-Q1-8AV"/>
                                         <include reference="bGj-Sg-OoH"/>
@@ -209,13 +208,13 @@
                             <mask key="constraints">
                                 <exclude reference="6kP-6B-S5H"/>
                                 <exclude reference="RjS-nR-lHn"/>
+                                <exclude reference="ItH-I7-JbY"/>
+                                <exclude reference="jSU-du-dhG"/>
+                                <exclude reference="xWp-9m-Gb0"/>
                                 <exclude reference="7Wg-P9-7wI"/>
                                 <exclude reference="phb-Cz-pKV"/>
                                 <exclude reference="Mwe-wk-prf"/>
                                 <exclude reference="eri-CJ-vbD"/>
-                                <exclude reference="ItH-I7-JbY"/>
-                                <exclude reference="jSU-du-dhG"/>
-                                <exclude reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -228,13 +227,13 @@
                             <mask key="constraints">
                                 <include reference="6kP-6B-S5H"/>
                                 <include reference="RjS-nR-lHn"/>
+                                <include reference="ItH-I7-JbY"/>
+                                <include reference="jSU-du-dhG"/>
+                                <include reference="xWp-9m-Gb0"/>
                                 <include reference="7Wg-P9-7wI"/>
                                 <include reference="phb-Cz-pKV"/>
                                 <include reference="Mwe-wk-prf"/>
                                 <include reference="eri-CJ-vbD"/>
-                                <include reference="ItH-I7-JbY"/>
-                                <include reference="jSU-du-dhG"/>
-                                <include reference="xWp-9m-Gb0"/>
                             </mask>
                         </variation>
                     </view>
