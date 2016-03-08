@@ -1,3 +1,7 @@
+#DO NOT MERGE 
+
+This branch was restarted accidentally as part of the v2 app.  The commits are kept here for reference but they were bulk imported onto master.
+
 # Digita11y iOS
 
 Native iOS client for Roundware built for PEM, Smithsonian, and BMA.
