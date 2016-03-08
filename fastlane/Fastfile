@@ -25,6 +25,30 @@ platform :ios do |options|
     scan
   end
 
+  desc "Build and load to my device"
+  lane :load do |options|
+    if options[:first]
+      produce(
+        username: 'developers@seeread.info',
+        app_identifier: 'org.roundware.Digita11y',
+        app_name: 'Digita11y',
+        language: 'English',
+        app_version: '1.0',
+        sku: '123',
+        team_name: '' # only necessary when in multiple teams
+      )
+      register_devices( devices_file: './fastlane/devices.txt')
+    end
+    match(type: "development", force_for_new_devices: true)
+    gym(
+      scheme: "Digita11y"
+    )
+    install_on_device(
+      device_id: ENV["TEST_DEVICE"],
+      ipa: "./Digita11y.ipa"
+    )
+  end
+
   desc "Submit a new build to Crashlytics"
   desc "This will also make sure the profile is up to date"
   lane :crashlytics do |options|
