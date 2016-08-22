@@ -32,8 +32,7 @@
                                         <exclude reference="4aE-8e-Ve0"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="57" y="124" width="300" height="140"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="4aE-8e-Ve0"/>
                                     </mask>
@@ -51,8 +50,7 @@
                                         <exclude reference="n0l-2m-YrS"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="57" y="324" width="300" height="392"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="2gi-qL-cyN"/>
                                         <include reference="n0l-2m-YrS"/>
@@ -147,13 +145,14 @@
                                                 <exclude reference="3Gw-vX-TNb"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular">
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="88" y="133" width="199" height="100"/>
                                             <mask key="constraints">
                                                 <include reference="3Gw-vX-TNb"/>
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" restorationIdentifier="WelcomeText" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssu-Sz-qmD" customClass="UILabelBody" customModule="Digita11y" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="WelcomeText" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssu-Sz-qmD" customClass="UILabelBody" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="154" width="6073" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="I7F-JH-OK6"/>
@@ -172,7 +171,7 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="WelcomeBegin" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4z-dT-tJR" customClass="UIButtonWhite" customModule="Digita11y" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="WelcomeBegin" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4z-dT-tJR" customClass="UIButtonWhite" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="3017" y="175" width="39" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="UTc-dE-mjb"/>
@@ -281,14 +280,15 @@
                                                 <exclude reference="oT5-ga-hJ0"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular">
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="37" y="209" width="300" height="200"/>
                                             <mask key="constraints">
                                                 <include reference="4OK-Rm-j8c"/>
                                                 <include reference="oT5-ga-hJ0"/>
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Insert amazing features like: geo-located comments, etc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwg-RJ-D5h" customClass="UILabelSubHeadline" customModule="Digita11y" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Insert amazing features like: geo-located comments, etc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwg-RJ-D5h" customClass="UILabelSubHeadline" customModule="Digita11y" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="432" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="Ayq-QB-AwM"/>
@@ -303,14 +303,15 @@
                                                 <exclude reference="lGN-UH-JJp"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular">
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="187" y="489" width="0.0" height="70"/>
                                             <mask key="constraints">
                                                 <include reference="Ayq-QB-AwM"/>
                                                 <include reference="lGN-UH-JJp"/>
                                             </mask>
                                         </variation>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="kKb-tc-wYy">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="kKb-tc-wYy">
                                         <rect key="frame" x="152" y="191" width="128" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="LocationNoButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx9-7v-6Tc" customClass="UIButtonWhite" customModule="Digita11y" customModuleProvider="target">
@@ -422,8 +423,7 @@
                                         <exclude reference="er3-bR-lpm"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="70" y="60" width="275" height="21"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="er3-bR-lpm"/>
                                     </mask>
@@ -441,8 +441,7 @@
                                         <exclude reference="hKm-rU-7iR"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="57" y="141" width="300" height="575"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="8O3-dE-I5d"/>
                                         <include reference="hKm-rU-7iR"/>
@@ -524,8 +523,7 @@
                                         <exclude reference="so2-M6-sv1"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="207" y="368" width="0.0" height="0.0"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="kEM-V4-HvW"/>
                                         <include reference="so2-M6-sv1"/>
@@ -588,8 +586,7 @@
                                         <exclude reference="vCf-mx-LqF"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="57" y="80" width="300" height="606"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="vCf-mx-LqF"/>
                                     </mask>
@@ -610,8 +607,7 @@
                                         <exclude reference="a7R-sX-ksw"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="207" y="368" width="0.0" height="0.0"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="MCE-LM-R9b"/>
                                         <include reference="a7R-sX-ksw"/>
@@ -627,11 +623,17 @@
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="48" height="37"/>
+                                        </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxB-14-20Q" userLabel="Previous">
                                         <rect key="frame" x="20" y="46" width="24" height="32"/>
                                         <accessibility key="accessibilityConfiguration" label="Previous asset"/>
                                         <state key="normal" image="previous"/>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="95" y="0.0" width="24" height="37"/>
+                                        </variation>
                                         <connections>
                                             <action selector="previousTag:" destination="FnB-gZ-PAk" eventType="touchUpInside" id="Qzl-wq-IZo"/>
                                         </connections>
@@ -642,6 +644,9 @@
                                         <state key="normal">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="174" y="0.0" width="30" height="37"/>
+                                        </variation>
                                         <connections>
                                             <action selector="toggleStream:" destination="FnB-gZ-PAk" eventType="touchUpInside" id="TBs-XL-QR3"/>
                                         </connections>
@@ -650,6 +655,9 @@
                                         <rect key="frame" x="133" y="51" width="24" height="32"/>
                                         <accessibility key="accessibilityConfiguration" label="Next asset"/>
                                         <state key="normal" image="next"/>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="260" y="0.0" width="24" height="37"/>
+                                        </variation>
                                         <connections>
                                             <action selector="nextTag:" destination="FnB-gZ-PAk" eventType="touchUpInside" id="eid-dr-xbJ"/>
                                         </connections>
@@ -658,13 +666,16 @@
                                         <rect key="frame" x="190" y="42" width="38" height="39"/>
                                         <accessibility key="accessibilityConfiguration" label="Contribute"/>
                                         <state key="normal" image="comment-small"/>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="334" y="0.0" width="40" height="37"/>
+                                        </variation>
                                         <connections>
                                             <action selector="contribute:" destination="FnB-gZ-PAk" eventType="touchUpInside" id="RVj-1n-Q3Y"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="691" width="374" height="68"/>
+                                    <rect key="frame" x="20" y="691" width="374" height="37"/>
                                 </variation>
                             </stackView>
                         </subviews>
@@ -702,13 +713,9 @@
                                 <exclude reference="JzA-bL-0dw"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6e9-LH-pwX"/>
-                                <exclude reference="hU8-R6-uJl"/>
-                                <exclude reference="iaW-Vj-UBT"/>
+                                <exclude reference="t3x-2d-rvF"/>
                                 <exclude reference="Oxj-78-tap"/>
                                 <exclude reference="R9v-4x-zf6"/>
-                                <exclude reference="A0B-2e-0q8"/>
-                                <exclude reference="tOY-nc-N44"/>
                                 <exclude reference="Hwc-F1-V00"/>
                                 <exclude reference="iVa-0n-Jfa"/>
                                 <exclude reference="bmA-nP-tJU"/>
@@ -716,7 +723,11 @@
                                 <exclude reference="Fye-Uh-2R1"/>
                                 <exclude reference="Npy-B5-2hh"/>
                                 <exclude reference="nso-75-kir"/>
-                                <exclude reference="t3x-2d-rvF"/>
+                                <exclude reference="6e9-LH-pwX"/>
+                                <exclude reference="hU8-R6-uJl"/>
+                                <exclude reference="iaW-Vj-UBT"/>
+                                <exclude reference="A0B-2e-0q8"/>
+                                <exclude reference="tOY-nc-N44"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -729,13 +740,9 @@
                                 <include reference="JzA-bL-0dw"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6e9-LH-pwX"/>
-                                <include reference="hU8-R6-uJl"/>
-                                <include reference="iaW-Vj-UBT"/>
+                                <include reference="t3x-2d-rvF"/>
                                 <include reference="Oxj-78-tap"/>
                                 <include reference="R9v-4x-zf6"/>
-                                <include reference="A0B-2e-0q8"/>
-                                <include reference="tOY-nc-N44"/>
                                 <include reference="Hwc-F1-V00"/>
                                 <include reference="iVa-0n-Jfa"/>
                                 <include reference="bmA-nP-tJU"/>
@@ -743,7 +750,11 @@
                                 <include reference="Fye-Uh-2R1"/>
                                 <include reference="Npy-B5-2hh"/>
                                 <include reference="nso-75-kir"/>
-                                <include reference="t3x-2d-rvF"/>
+                                <include reference="6e9-LH-pwX"/>
+                                <include reference="hU8-R6-uJl"/>
+                                <include reference="iaW-Vj-UBT"/>
+                                <include reference="A0B-2e-0q8"/>
+                                <include reference="tOY-nc-N44"/>
                             </mask>
                         </variation>
                     </view>
@@ -789,13 +800,13 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="61"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         </variation>
                                     </label>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="ContributeScroll" bounces="NO" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSR-Dv-uNZ">
                                         <rect key="frame" x="0.0" y="41" width="466" height="236"/>
                                         <variation key="heightClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="81" width="374" height="202"/>
+                                            <rect key="frame" x="0.0" y="41" width="374" height="202"/>
                                         </variation>
                                     </scrollView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Response" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V7-kK-PBe" userLabel="Response Label" customClass="UILabelSubHeadline" customModule="Digita11y" customModuleProvider="target">
@@ -812,7 +823,7 @@
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="303" width="374" height="33"/>
+                                            <rect key="frame" x="0.0" y="263" width="374" height="33"/>
                                             <mask key="constraints">
                                                 <include reference="BHn-gT-CgK"/>
                                             </mask>
@@ -832,7 +843,7 @@
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="356" width="374" height="200"/>
+                                            <rect key="frame" x="0.0" y="316" width="374" height="200"/>
                                             <mask key="constraints">
                                                 <include reference="9tc-JU-5tG"/>
                                             </mask>
@@ -841,17 +852,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dqw-93-MOw">
                                         <rect key="frame" x="0.0" y="596" width="466" height="162"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJk-kv-DnR" userLabel="Undo">
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJk-kv-DnR" userLabel="Undo">
                                                 <rect key="frame" x="0.0" y="0.0" width="104" height="162"/>
                                                 <state key="normal" image="undo"/>
                                                 <variation key="heightClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="0.0" y="0.0" width="104" height="120"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="104" height="160"/>
                                                 </variation>
                                                 <connections>
                                                     <action selector="undo:" destination="80e-wb-9Zi" eventType="touchUpInside" id="NfT-ac-EJU"/>
                                                 </connections>
                                             </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SuZ-cA-ngt">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SuZ-cA-ngt">
                                                 <rect key="frame" x="124" y="0.0" width="218" height="162"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axU-gD-3eO" customClass="UILabelSubHeadline" customModule="Digita11y" customModuleProvider="target">
@@ -860,7 +871,7 @@
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                         <variation key="heightClass=regular" misplaced="YES">
-                                                            <rect key="frame" x="0.0" y="0.0" width="126" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="126" height="19"/>
                                                         </variation>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="58s-2Y-sUI">
@@ -910,7 +921,7 @@
                                                             </button>
                                                         </subviews>
                                                         <variation key="heightClass=regular" axis="horizontal" misplaced="YES">
-                                                            <rect key="frame" x="0.0" y="10" width="126" height="100"/>
+                                                            <rect key="frame" x="0.0" y="29" width="126" height="100"/>
                                                         </variation>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3g-r3-mlV" customClass="UILabelSubHeadline" customModule="Digita11y" customModuleProvider="target">
@@ -919,20 +930,20 @@
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                         <variation key="heightClass=regular" misplaced="YES">
-                                                            <rect key="frame" x="0.0" y="120" width="126" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="139" width="126" height="21"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
                                                 <variation key="heightClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="124" y="0.0" width="126" height="120"/>
+                                                    <rect key="frame" x="124" y="0.0" width="126" height="160"/>
                                                 </variation>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lE-le-eli" userLabel="Upload">
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lE-le-eli" userLabel="Upload">
                                                 <rect key="frame" x="362" y="0.0" width="104" height="162"/>
                                                 <accessibility key="accessibilityConfiguration" label="Upload"/>
                                                 <state key="normal" image="upload"/>
                                                 <variation key="heightClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="270" y="0.0" width="104" height="120"/>
+                                                    <rect key="frame" x="270" y="0.0" width="104" height="160"/>
                                                 </variation>
                                                 <connections>
                                                     <action selector="upload:" destination="80e-wb-9Zi" eventType="touchUpInside" id="iVQ-j9-h2R"/>
@@ -940,7 +951,7 @@
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular" axis="horizontal" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="576" width="374" height="120"/>
+                                            <rect key="frame" x="0.0" y="536" width="374" height="160"/>
                                         </variation>
                                     </stackView>
                                 </subviews>
@@ -1020,18 +1031,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="90" width="374" height="21"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="While you’re on a roll would you care to contribute another?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rat-u2-dCv" customClass="UILabelBody" customModule="Digita11y" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="186" width="509" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="131" width="374" height="41"/>
-                                </variation>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="ThanksScroll" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fd-r1-7wb">
                                 <rect key="frame" x="0.0" y="227" width="509" height="300"/>
@@ -1045,8 +1050,7 @@
                                         <exclude reference="dGx-xX-vVy"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="57" y="192" width="300" height="200"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="U3Z-fl-MQV"/>
                                         <include reference="dGx-xX-vVy"/>
@@ -1056,9 +1060,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew9-yM-J5J" customClass="UIButtonWhite" customModule="Digita11y" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="547" width="509" height="30"/>
                                 <state key="normal" title="No Thanks"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="686" width="374" height="30"/>
-                                </variation>
                                 <connections>
                                     <action selector="noThanks:" destination="RP1-T4-HhY" eventType="touchUpInside" id="EFx-8Y-17r"/>
                                 </connections>
@@ -1216,8 +1217,7 @@ This improvement upon the original usage was introduced by no less a man than St
                                                 <exclude reference="kDJ-gH-VMr"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="280" height="244"/>
+                                        <variation key="heightClass=regular">
                                             <mask key="constraints">
                                                 <include reference="kDJ-gH-VMr"/>
                                             </mask>
@@ -1470,6 +1470,12 @@ This improvement upon the original usage was introduced by no less a man than St
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="y1e-EZ-O6H">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="87" y="304" width="240" height="128"/>
+                                </variation>
+                            </mapView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HCm-Xa-0Ta" customClass="ImageScrollView" customModule="ImageScrollView">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </scrollView>
@@ -1490,34 +1496,48 @@ This improvement upon the original usage was introduced by no less a man than St
                             <constraint firstItem="HCm-Xa-0Ta" firstAttribute="bottom" secondItem="FEA-LV-XGJ" secondAttribute="top" id="9tC-Pb-AQX"/>
                             <constraint firstItem="HCm-Xa-0Ta" firstAttribute="top" secondItem="PeG-VN-9qa" secondAttribute="top" id="E2y-UX-RUA"/>
                             <constraint firstAttribute="trailing" secondItem="HCm-Xa-0Ta" secondAttribute="trailing" id="HNj-5S-YiB"/>
+                            <constraint firstItem="y1e-EZ-O6H" firstAttribute="top" secondItem="MfP-Fr-dZz" secondAttribute="bottom" id="Nhr-Mr-uqM"/>
+                            <constraint firstItem="y1e-EZ-O6H" firstAttribute="leading" secondItem="PeG-VN-9qa" secondAttribute="leading" id="d5Z-8W-Nnv"/>
                             <constraint firstItem="n63-Qv-uSh" firstAttribute="trailing" secondItem="PeG-VN-9qa" secondAttribute="trailingMargin" id="kvX-Vp-Zih"/>
+                            <constraint firstItem="FEA-LV-XGJ" firstAttribute="top" secondItem="y1e-EZ-O6H" secondAttribute="bottom" id="nDc-o2-rcr"/>
+                            <constraint firstAttribute="trailing" secondItem="y1e-EZ-O6H" secondAttribute="trailing" id="qBL-zl-VeF"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="y1e-EZ-O6H"/>
                                 <exclude reference="HCm-Xa-0Ta"/>
                                 <exclude reference="n63-Qv-uSh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8to-HR-GDd"/>
-                                <exclude reference="kvX-Vp-Zih"/>
                                 <exclude reference="94V-xg-q39"/>
                                 <exclude reference="9tC-Pb-AQX"/>
                                 <exclude reference="E2y-UX-RUA"/>
                                 <exclude reference="HNj-5S-YiB"/>
+                                <exclude reference="Nhr-Mr-uqM"/>
+                                <exclude reference="d5Z-8W-Nnv"/>
+                                <exclude reference="qBL-zl-VeF"/>
+                                <exclude reference="8to-HR-GDd"/>
+                                <exclude reference="kvX-Vp-Zih"/>
+                                <exclude reference="nDc-o2-rcr"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
+                                <include reference="y1e-EZ-O6H"/>
                                 <include reference="HCm-Xa-0Ta"/>
                                 <include reference="n63-Qv-uSh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="8to-HR-GDd"/>
-                                <include reference="kvX-Vp-Zih"/>
                                 <include reference="94V-xg-q39"/>
                                 <include reference="9tC-Pb-AQX"/>
                                 <include reference="E2y-UX-RUA"/>
                                 <include reference="HNj-5S-YiB"/>
+                                <include reference="Nhr-Mr-uqM"/>
+                                <include reference="d5Z-8W-Nnv"/>
+                                <include reference="qBL-zl-VeF"/>
+                                <include reference="8to-HR-GDd"/>
+                                <include reference="kvX-Vp-Zih"/>
+                                <include reference="nDc-o2-rcr"/>
                             </mask>
                         </variation>
                     </view>
